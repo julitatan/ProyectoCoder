@@ -55,79 +55,41 @@ h1{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    
+    font-family: 'IM Fell English SC', serif;
     text-decoration: none;
+}
+.link {
+    font-family: 'IM Fell English SC', serif;
 }
 
 .hijo:hover {
     opacity: 0.50;
 }
 
-/*---------------------BODY-------------*/
-img {
-    max-width: 100%;
+/*----------------------------------body-------------------------------*/
+.body {
+    width: 100vh;
 }
-body {
-    display: flex;
-    flex-direction: column;
+.padre .imagen {
+    width: 20em;
+    height: 20em;
 }
-body .banner {
+.body .banner {
+    background-image: url(../img/banner.jpg);
+    position: top center;
+    width: 100%;
+    background-repeat: repeat;
+}
+.body .banner {
     background-image: url(../img/banner.jpg);
     position: top center;
 }
-.padre {
-    margin: 10px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-}
-.padre .hijo1 {
-    background-color: #572D48;
-    height: 70px;
-    width: 100%;
-    margin-left: auto;
-    padding: 200 0;
-}
-
-.padre .hijo1 .texto {
-    text-align: center;
-font-size: 27px;
-font-family: 'IM Fell English SC', serif;
-line-height: 60px;
-}
-
-#secciones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-.padre .secciones .hijo2 {
-    border-bottom: 10px;
-}
-
-.padre .hijo2 .cuadro1 {
-    background-color: darkslategrey;
-    border: 4px black;
-}
-
-
-.padre .hijo2 .imagen {
-    width: 400px;
-    height: 400px;
-}
-h3 {
-    font-family: 'Playfair Display', serif;
-}
-
-
 
 /*--------------------------------refrencias---------------------------*/
-
-body {
+.body {
     width: 80%;
     padding: 10px;
-    
-}
+    }
 
 .identificador .ref h2 {
     align-items: center;
