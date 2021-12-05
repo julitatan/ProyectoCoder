@@ -6,83 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>BANNO</title>
 </head>
 <header id="header">
-    <div class="visual">
-        <h1>BANNO</h1>
+    <div class="navB">
+        <div>
+            <h1 class="d-none d-lg-block text-white">BANNO</h1>
+        </div>
+        <div class="d-none d-lg-block">
+            <nav class="menu">
+                <ul class="nav">
+                    <li><a class="hijo1 hijo" href="../index.html">HOME</a></li>
+                    <li><a class="hijo2 hijo" href="../page/trabajos.html">TRABAJOS</a></li>
+                    <li><a class="hijo3 hijo" href="../page/referencias.html">REFERENCIAS</a></li>
+                    <li><a class="hijo4 hijo" href="../page/sobremi.html">SOBRE MI</a></li>
+                    <li><a class="hijo5 hijo" href="../page/novedades.html">NOVEDADES</a></li>
+                    <li><a class="hijo6 hijo" href="../page/contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav> 
+        </div>
+        <div class="d-lg-none">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <h1 class="navbar-brand text-white">BANNO</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-grid" viewBox="0 0 16 16">
+                            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                        </svg>
+                    </button>
+                        <div class="collapse navbar-collapse MDesplegable" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../index.html">HOME</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../page/trabajos.html">TRABAJOS</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../page/referencias.html">REFERENCIAS</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../page/sobremi.html">SOBRE MI</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../page/novedades.html">NOVEDADES</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white link" href="../page/contacto.html">CONTACTO</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </div>    
     </div>
-
-    <nav class="menu">
-        <ul class="nav">
-            <li><a class="hijo1 hijo" href="../index.html" >HOME</a></li>
-            <li><a class="hijo2 hijo" href="./trabajos.html" >TRABAJOS</a></li>
-            <li><a class="hijo3 hijo" href="./referencias.html" >REFERENCIAS</a></li>
-            <li><a class="hijo4 hijo" href="./sobremi.html" >SOBRE MI</a></li>
-            <li><a class="hijo5 hijo" href="./novedades.html" >NOVEDADES</a></li>
-            <li><a class="hijo6 hijo" href="./contacto.html" >CONTACTO</a></li>
-        </ul>
-</nav>
 </header>
 
-<body>
+<body class="contactoBG">
     <section class="identificador">
         <h2>CONTACTO</h2>
     </section>
     <main class="contacto">
-    <form action="contactame">
-        <fieldset>
-            <legend>CONTACTAME</legend>
-            <div class="row"> 
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="Nombre" id="nombre"/>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="Apellido" id="apellido"/>
-                <label for="Email">Email:</label>
-                <input type="text" name="email" id="email">
-            </div>
+        <form action="contactame">
+            <fieldset>
+                <legend>CONTACTAME</legend>
+                    <div class="row"> 
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="Nombre" id="nombre"/>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="Apellido" id="apellido"/>
+                        <label for="Email">Email:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <label for="mensaje">MENSAJE</label>
+                    <textarea name="mensaje" id="mensaje" cols="110" rows="20"></textarea>
+                
+                    <div class="deseo">Deseo recibir notificaciones de actualizaciones de la pagina</div>
+                    <input type="checkbox" name="aceptar" value="1">
+                
+                    <div class="row">
+                        <input type="submit" value="enviar">
+                        <input type="reset" value="borrar">
+                    </div>
 
-
-            
-            <label for="mensaje">MENSAJE</label>
-            
-            <textarea name="mensaje" id="mensaje" cols="110" rows="20"></textarea>
-            
-            <div class="deseo">Deseo recibir notificaciones de actualizaciones de la pagina</div>
-            <input type="checkbox" name="aceptar" value="1">
-            
-            <div class="row">
-                <input type="submit" value="enviar">
-                <input type="reset" value="borrar">
-            </div>
-            
-            
-            
-            <div class="redesSociales"> 
-                <h3>REDES SOCIALES</h3>
-                <p>Tambien pueden seguirme en mi red social de instagram donde tendrán las noticias mas recientes.</p>
-                <a href="https://www.instagram.com/iakovanno/?hl=es">"@Iakovanno"</a>
-                <img src="../img/instagram (2).png" alt="instagram" width="40px">
-            </div>
-            
-
-            
-        </fieldset>
-    </form>
+            </fieldset>
+        </form>
     </main>
-
-    <footer> 
-        <div class="color">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore cupiditate eveniet quidem, nobis nulla sapiente dolor ipsam, iusto libero similique veniam consequuntur ut nesciunt natus iure quam vero. Ea nihil facere veniam nisi aliquid illo culpa molestias ducimus expedita mollitia error fugit incidunt, rerum impedit id esse deserunt libero?</p>
-        </div> 
-        <div class="redes">
+</body>
+<footer> 
+    <div class="color">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore cupiditate eveniet quidem, nobis nulla sapiente dolor ipsam, iusto libero similique veniam consequuntur ut nesciunt natus iure quam vero. Ea nihil facere veniam nisi aliquid illo culpa molestias ducimus expedita mollitia error fugit incidunt, rerum impedit id esse deserunt libero?</p>
+    </div> 
+    <div class="redes">
         <img src="../img/instagram (2).png" alt="intagram logo" class="tamaño">
         <img src="../img/2310223_bird_logo_twitter_twitter logo_icon.png" alt="twitter logo" class="tamaño">
         <img src="../img/facebook.png" alt="facebook logo" class="tamaño">
-        </div>
-        <h6>Copyrigth © Taboada Julia 2021</h6>
+    </div>
+    <h6>Copyrigth © Taboada Julia 2021</h6>
 </footer>
-</body>
-
 </html>
