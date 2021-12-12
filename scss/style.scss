@@ -1,0 +1,477 @@
+@import "colores";
+@import "fuentes";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxs;
+}
+
+/*--------- NAVEGADOR--------*/
+#header {
+    border: 4px solid rgb(7, 6, 6);
+    padding: 30px;
+    margin: 0;
+    background-color: rgb(7, 6, 6);
+    width: 100%;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .Pn {
+        text-align: center;
+        h1 {
+        font-style: 'Playfair Display', serif;
+        }
+    }
+}
+.visual {
+    display: inline-block;
+    padding: 0 px 100 px;
+    h1{
+    color: blanchedalmond;
+    font-size: 72px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    letter-spacing: 10px;
+    flex-wrap: wrap;
+    }
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    .nav {
+    margin: 20px auto;
+    padding: 10 px;
+    content: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+        .hijo {
+        color: blanchedalmond;
+        text-shadow: 0px 0px 0.4px;
+        word-spacing: 15px;
+        padding: 40px 70px;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 20px;
+        font-family: 'IM Fell English SC', serif;
+        text-decoration: none;
+            &hover {
+            opacity: 0.50;
+            }
+        }
+    }
+}
+
+
+.navBG {
+    background-color: black;
+}
+.link {
+    font-family: 'IM Fell English SC', serif;
+}
+
+/*--------------------------------------------IDENTIFICADOR----------------------------------------------------*/
+.identificador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: $background-color;
+    h2 {
+    letter-spacing: 80px ;
+    align-items: center;
+    font-size: $identificador-font;
+    font-style: 'Playfair Display', serif;
+    }
+}
+
+/*----------------------------------body-------------------------------*/
+
+.body {
+    width: 98.7vw;
+    background-color: $background-color;
+    #banner {
+    background-repeat: repeat-x;
+    position: top center;
+    width: 100%;
+    }
+    .texto {
+    color: snow;
+    font-size: $titulo-tama;
+    font-style: 'Playfair Display', serif;
+    }
+}
+
+.padre .imagen {
+    width: 20em;
+    height: 20em;
+}
+
+
+/*------------------footer---------------------------------*/
+
+footer {
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    content: 10px;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    p {
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: blanchedalmond;;
+    }
+}
+
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    content: 9px 15px;
+    padding: 2px 40px;
+    img {
+    width: 50px;
+    height: 50px;
+    }
+}
+
+h6 {
+    color: blanchedalmond;
+    margin: auto;
+    font-size: 0,5rem;
+}
+
+/*----------------------------------------TRABAJOS--------------------------------------------------*/
+#margenes{
+    height: 100%;
+}
+#tituloPag {
+    display: flex;
+}
+
+
+.card {
+    margin: 0 0 5rem 0;
+    align-items: center;
+    .carousel {
+        width: 840px; 
+        height: 560px; 
+    }
+    h3 {
+        font-size: 3rem;
+        font-style: 'Playfair Display', serif;
+    }
+    p {
+        font-size: 1rem;
+        font-style: 'PT Sans', sans-serif;
+        text-align: center;
+        padding: 0 2rem;
+    }
+}
+.card2 {
+    height: auto;
+    .carousel{
+        width: 840px;
+        height: fit-content;
+    }
+}
+
+/*------------------CONTACTO---------------------*/
+.contactoBG {
+    background-image: url(../img/banner.jpg);
+    background-size: contain;
+}
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px auto;
+    align-items: center;
+    border: black 5px solid;
+    background-color: slategrey;
+    width: 70%;
+    legend {
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 7px;
+    margin: 5px 170px;
+    }
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.deseo {
+    padding: 0.5rem;
+}
+
+.redesSociales {
+    background-color: teal;
+    font-size: 1rem;
+    font-family: 'IM Fell English SC', serif;
+    align-items: center;
+}
+
+/*------------------------SOBRE MI-------------------------------*/
+
+.contenedorMi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    width: auto;
+    margin: 20px;
+    .quien {
+    flex-direction: column;
+    justify-items: flex-start;
+    background-color: cadetblue;
+    box-shadow: $box-shadow;
+    display: inline-block;
+    width: 90%;
+        .quienSoy {
+        font-size: 'Playfair Display', serift;
+        font-weight: bold;
+        font-family: $titulo-tama;
+        word-spacing: 10px;
+        }
+    }
+    .row2 {
+    display: inline-flex;
+    box-shadow: $box-shadow;
+    margin-top: 5px;
+    width: 90%;
+        p {
+        font-size: 2rem;
+        font-family:'PT Sans', sans-serif;
+        padding: 2px;
+        }
+    }
+    .centro {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 20px;
+    }
+}
+
+
+
+
+@for $i from 1 through 2 {
+    .clase-#{$i} {
+        margin: 0px 20px;
+        border: 5px $border-color solid;
+        background-color: $box-color;
+        padding: 2px;
+        h3 {
+            font-size: 'Playfair Display', serif;
+            font-style: $titulo-tama;
+        }
+        p{
+        font-size: $parrafo-tama;
+        font-style: 'PT Sans', sans-serif;
+        padding: 1px;
+        text-align: center;
+        }
+    }
+}
+
+.inspiraciones{
+    background-color: rgb(219, 141, 157);
+    box-shadow: $box-shadow;
+    width: 97%;
+    h3 {
+    display: flex;
+    text-align: center;
+    font-size: $titulo-tama;
+    font-style: 'Playfair Display', serif;
+    border: 3px crimson dotted;
+    padding: 0px 670px;
+    }
+    p {
+    font-size: $parrafo-tama;
+    font-style: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    }
+}
+
+
+
+
+.tabla {
+    justify-content: center;
+    padding: 40px 400px;
+    align-items: center;
+}
+
+/*----------------------------------NOVEDADES----------------------------------*/
+.marco {
+    height:  100vw;
+}
+.concurso {
+    background-color: darkslateblue;
+    border: 3px black solid;
+    justify-content: center;
+    width: 100%;
+    h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-align: center;
+    }
+}
+
+
+.flayer {
+    background-image: url(../img/eamoda\ flayer.jpg);
+    background-size: cover;
+    width: 100%
+}
+
+.principio p {
+    background-color: lightpink;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: midnightblue;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.video-1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.propuesta {
+    margin: 10px 20px;
+    background-color: rgb(158, 158, 158);
+    h3 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    border: 3px grey solid;
+    padding: 4px 10px;
+    width: 100%;
+    }
+    .prop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+        img {
+        width: 70%;
+        padding: 20px 30px;
+        background-color: black;
+        margin-right: 40px;
+        }
+        p {
+        font-size: 1rem;
+        text-align: center;
+        justify-content: center;
+        font-family: $normal-font;
+        padding-right: 20px;
+        line-height: 20px;
+        }
+    }
+}
+/*-------------------------------------------------------referencias----------------------------------------------------------*/
+
+
+#img2 h3 {
+    position: absolute;
+}
+
+#img3 {
+    width: 40em;
+}
+
+.cardModelo {
+    background-color: silver;
+    width: 50%;
+    margin: 40px auto;
+    .img1 {
+    width: 30em;
+    padding: 1em 0em;
+    }
+    .parrafo {
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 2rem;
+    }
+}
+
+
+.Rconcepto{
+    background-color: slategrey;
+    margin: 10px;
+    .concepto2 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: snow;
+    }
+    .conceptoP {
+    font-size: 1.5rem;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    color: snow;
+    }
+}
+
+.wrapper{
+    font-family:sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    position:relative;
+    }
+    img{
+    opacity: 1;
+    display: block;
+    width:100%;
+    height: auto;
+    transition: .5s ease;
+    }
+    .content{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 2REM;
+    font-family: 'Playfair Display', serif;
+    color:rgb(20, 20, 15);
+    white-space: nowrap;
+    overflow: hidden
+    }
+
+    .overlay{
+    opacity: 0
+    }
+    .wrapper:hover img{
+    opacity: .5
+    }
+    .wrapper:hover .overlay{
+    opacity: 1
+    }

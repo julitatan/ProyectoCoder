@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>BANNO</title>
@@ -63,41 +64,47 @@
     <section class="identificador">
         <h2>CONTACTO</h2>
     </section>
-    <main class="contacto">
+    <main class="contacto container-fluid">
         <form action="contactame">
             <fieldset>
                 <legend>CONTACTAME</legend>
-                    <div class="row"> 
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="Nombre" id="nombre"/>
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="Apellido" id="apellido"/>
-                        <label for="Email">Email:</label>
-                        <input type="text" name="email" id="email">
+                    <div class="row align-items-center"> 
+                        <div class="col">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="Nombre" id="nombre" class="respond"/>
+                        <div class="col">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" name="Apellido" id="apellido" class="respond"/>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <label for="Email">Email:</label>
+                            <input type="text" name="email" id="email" class="respond">
+                        </div>
+                        <div class="col">
+                            <label for="mensaje">MENSAJE</label>
+                            <textarea name="mensaje" id="mensaje" cols="110" rows="20" class="respond"></textarea>
+                        </div>
+                        <div class="col">
+                            <div class="deseo" class="respond">Deseo recibir notificaciones de actualizaciones de la pagina</div>
+                            <input type="checkbox" name="aceptar" value="1" class="respond">
+                        </div>
                     </div>
-                    <label for="mensaje">MENSAJE</label>
-                    <textarea name="mensaje" id="mensaje" cols="110" rows="20"></textarea>
-                
-                    <div class="deseo">Deseo recibir notificaciones de actualizaciones de la pagina</div>
-                    <input type="checkbox" name="aceptar" value="1">
-                
                     <div class="row">
-                        <input type="submit" value="enviar">
-                        <input type="reset" value="borrar">
+                        <input type="submit" value="enviar" class="respond">
+                        <input type="reset" value="borrar" class="respond">
                     </div>
-
             </fieldset>
         </form>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 <footer> 
-    <div class="color">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae tempore cupiditate eveniet quidem, nobis nulla sapiente dolor ipsam, iusto libero similique veniam consequuntur ut nesciunt natus iure quam vero. Ea nihil facere veniam nisi aliquid illo culpa molestias ducimus expedita mollitia error fugit incidunt, rerum impedit id esse deserunt libero?</p>
-    </div> 
+    <p>Para estar mas actualizados sobre trabajos y proyectos siganme en mis redes sociales. Me podran encontrar en Instagram y en Facebook como Santiago Banno o dandole click en las siguientes imagenes. </p>
     <div class="redes">
-        <img src="../img/instagram (2).png" alt="intagram logo" class="tamaño">
-        <img src="../img/2310223_bird_logo_twitter_twitter logo_icon.png" alt="twitter logo" class="tamaño">
-        <img src="../img/facebook.png" alt="facebook logo" class="tamaño">
+        <a href="https://www.instagram.com/bannosantiago/?hl=es-la"><img src="../img/instagram (2).png" alt="intagram logo" class="tamaño"></a>
+        <a href="https://www.facebook.com/profile.php?id=100006608509413"><img src="../img/facebook.png" alt="facebook logo" class="tamaño"></a>
     </div>
     <h6>Copyrigth © Taboada Julia 2021</h6>
 </footer>

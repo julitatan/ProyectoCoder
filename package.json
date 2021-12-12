@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Pagina de Santiago Banno diseñador de moda, consta con 6 pestañas",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julitatan/ProyectoCoder.git"
+  },
+  "author": "\"julia taboada\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julitatan/ProyectoCoder/issues"
+  },
+  "homepage": "https://github.com/julitatan/ProyectoCoder#readme"
+}
