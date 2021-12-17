@@ -1,6 +1,6 @@
 @import "colores";
 @import "fuentes";
-
+@import "queries";
 
 * {
     padding: 0;
@@ -91,27 +91,74 @@
 }
 
 /*----------------------------------body-------------------------------*/
-
+.hIndex{
+    width: fit-content;
+}
 .body {
-    width: 98.7vw;
+    width: 98.9vw;
     background-color: $background-color;
     #banner {
-    background-repeat: repeat-x;
-    position: top center;
     width: 100%;
     }
-    .texto {
-    color: snow;
-    font-size: $titulo-tama;
-    font-style: 'Playfair Display', serif;
+    .textobox {
+        margin: 2rem;
+        .texto {
+        color: black;
+        font-style:'PT Sans', sans-serif;
+        font-size: $titulo-tama;
+        text-align: center;
+        }
+    }
+    
+}
+.padre {
+    margin: 5rem 0;
+    .imagen {
+    width: 20em;
+    height: 20em;
+    }
+    .cardsindex {
+    text-decoration: none;
+    color: black;
     }
 }
 
-.padre .imagen {
-    width: 20em;
-    height: 20em;
-}
 
+.wrapper{
+    font-family:sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    position:relative;
+    }
+    img{
+    opacity: 1;
+    display: block;
+    width:100%;
+    height: auto;
+    transition: .5s ease;
+    }
+    .content{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 2REM;
+    font-family: 'Playfair Display', serif;
+    color:rgb(20, 20, 15);
+    white-space: nowrap;
+    overflow: hidden;
+    }
+
+    .overlay{
+    opacity: 0
+    }
+    .wrapper:hover img{
+    opacity: .5
+    }
+    .wrapper:hover .overlay{
+    opacity: 1
+    }
 
 /*------------------footer---------------------------------*/
 
@@ -204,32 +251,21 @@ h6 {
     background-color: slategrey;
     width: 70%;
     legend {
-    align-items: center;
     font-weight: bold;
     font-size: 2rem;
-    padding: 7px;
     margin: 5px 170px;
     }
 }
 
+.flex {
+    margin: 3rem 0;
+    flex-direction: column;
+}
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.flexRow {
     margin: 1rem;
 }
 
-.deseo {
-    padding: 0.5rem;
-}
-
-.redesSociales {
-    background-color: teal;
-    font-size: 1rem;
-    font-family: 'IM Fell English SC', serif;
-    align-items: center;
-}
 
 /*------------------------SOBRE MI-------------------------------*/
 
@@ -439,39 +475,3 @@ h6 {
     color: snow;
     }
 }
-
-.wrapper{
-    font-family:sans-serif;
-    width: 80%;
-    margin: 0 auto;
-    position:relative;
-    }
-    img{
-    opacity: 1;
-    display: block;
-    width:100%;
-    height: auto;
-    transition: .5s ease;
-    }
-    .content{
-    position: absolute;
-    top:45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-size: 2REM;
-    font-family: 'Playfair Display', serif;
-    color:rgb(20, 20, 15);
-    white-space: nowrap;
-    overflow: hidden
-    }
-
-    .overlay{
-    opacity: 0
-    }
-    .wrapper:hover img{
-    opacity: .5
-    }
-    .wrapper:hover .overlay{
-    opacity: 1
-    }

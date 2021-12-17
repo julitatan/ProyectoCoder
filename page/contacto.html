@@ -13,7 +13,7 @@
 </head>
 <header id="header">
     <div class="navB">
-        <div>
+        <div class="Pn">
             <h1 class="d-none d-lg-block text-white">BANNO</h1>
         </div>
         <div class="d-none d-lg-block">
@@ -60,41 +60,42 @@
     </div>
 </header>
 
+
 <body class="contactoBG">
     <section class="identificador">
         <h2>CONTACTO</h2>
     </section>
-    <main class="contacto container-fluid">
+    <main class="contacto">
         <form action="contactame">
-            <fieldset>
+            <section class="flex">
                 <legend>CONTACTAME</legend>
-                    <div class="row align-items-center"> 
-                        <div class="col">
+                    <div> 
+                        <div class="">
                             <label for="nombre">Nombre:</label>
-                            <input type="text" name="Nombre" id="nombre" class="respond"/>
-                        <div class="col">
+                            <input type="text" name="Nombre" id="nombre"/>
+                        <div class="">
                             <label for="apellido">Apellido:</label>
-                            <input type="text" name="Apellido" id="apellido" class="respond"/>
+                            <input type="text" name="Apellido" id="apellido"/>
                         </div>
                         </div>
-                        <div class="col">
+                        <div class="flexRow">
                             <label for="Email">Email:</label>
-                            <input type="text" name="email" id="email" class="respond">
+                            <input type="text" name="email" id="email"/>
                         </div>
-                        <div class="col">
-                            <label for="mensaje">MENSAJE</label>
-                            <textarea name="mensaje" id="mensaje" cols="110" rows="20" class="respond"></textarea>
+                        <div>
+                            <label for="flexRow">MENSAJES</label>
+                            <textarea name="mensaje" id="mensaje" cols="50" rows="20"></textarea>
                         </div>
-                        <div class="col">
+                        <div class="flexRow">
                             <div class="deseo" class="respond">Deseo recibir notificaciones de actualizaciones de la pagina</div>
-                            <input type="checkbox" name="aceptar" value="1" class="respond">
+                            <input type="checkbox" name="aceptar" value="1">
                         </div>
                     </div>
-                    <div class="row">
-                        <input type="submit" value="enviar" class="respond">
-                        <input type="reset" value="borrar" class="respond">
+                    <div class="flexRow">
+                        <input type="submit" value="enviar">
+                        <input type="reset" value="borrar">
                     </div>
-            </fieldset>
+                </section>
         </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
